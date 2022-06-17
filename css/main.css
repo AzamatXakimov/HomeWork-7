@@ -1,0 +1,569 @@
+body
+{
+    font-family: "Rubik", sans-serif;
+}
+
+.header-startbox
+{
+    width: 1440px;
+    background: #f6f6f6;
+}
+
+.headerbox
+{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: #F6F6F6; */
+}
+
+.headerbox-logobox
+{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+}
+.headerbox-logobox-logo
+{
+    background: #fff;
+}
+
+.site-logo-img
+{
+    width: 276px;
+    height: 45px;
+}
+
+.headerbox-logobox-list
+{
+    width: 200px;
+    display: flex;  
+    justify-content:space-evenly; 
+}
+
+.headerbox-logobox-list-item
+{
+    list-style: none;
+}
+
+.headerbox-logobox-list-item-currency
+{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;    
+}
+
+.headerbox-logobox-list-item-currency-icon
+{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2959ce;
+}
+.headerbox-searchbox
+{
+    display: flex;
+    align-content: center;
+    justify-content:start;
+}
+
+.headerbox-searchbox-search
+{
+    height: 45px;
+    width: 275px;
+    background-color:#fff;
+    border-radius: 60px;
+    padding-left: 41px;
+}
+
+.headerbox-searchbox-search-text{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8D8D8D;    
+}
+
+.headerbox-searchbox-language
+{
+    display: flex;
+    width: 70px;
+    background-color: #dce6ff;
+    border-radius: 39px;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.headerbox-searchbox-language-list-link-uz
+{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 12px;
+    color: #000000;
+    background: #fff;
+    border-radius: 50%;
+    padding-left: 7px;
+    padding-top: 9px;
+    padding-right: 7px;
+    padding-bottom: 9px;
+    margin-left: 3px;
+    margin-top: 3px;
+    margin-right: 8px;
+    margin-bottom: 3px;
+    text-decoration: none;
+}
+
+.headerbox-searchbox-language-list-link-ru
+{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;  
+    color: #a6a6a6;
+    background: #dce6ff;
+    /* border-radius: 50%; */
+    margin-left: 3px;
+    margin-top: 11px;
+    margin-right: 13px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.headerbox-searchbox-link
+{
+    background: #7296ec;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 20px;
+    padding-top: 13px;
+    padding-right: 20px;
+    padding-bottom: 13px;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+.headen-nav
+{
+    width: 1200px;
+    border-bottom: 1px solid #d1d1d1;
+    margin-bottom: 40px;
+}
+
+.headen-nav-list
+{
+    display: flex;
+    align-content : center;
+    justify-content:space-evenly;  
+}
+.headen-nav-list-item
+{
+    list-style: none;
+
+}
+
+.headen-nav-list-item-link
+{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #7F7F7F;
+    text-decoration: none;
+}
+
+.main-box-for-advertising-add-img
+{
+    width: 1200px;
+    height: 128px;
+}
+
+.main-news-box-list
+{
+    width: 1200px;
+    display: flex;
+    /* align-items: center; */
+    align-content: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;  
+}
+.main-news-box-list-item
+{
+    width: 393px;
+    background: #F6F6F6;
+    list-style: none;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.main-news-box-list-itembox{
+    padding-left: 17px;
+    padding-top: 20px;
+    padding-right: 17px;
+    padding-bottom: 17px;
+}
+
+.main-news-box-list-item-theme-link
+{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.main-news-box-list-item-text
+{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4A4B4C;
+}
+
+.main-news-box-list-item-description
+{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5E5F61;
+}
+
+.main-article
+{
+    height: 100px;
+    width: 1050px;
+    background: #ffbb87;
+    display: flex;
+    align-items : center;
+    justify-content:space-between;  
+
+    border-radius: 15px;
+}
+
+.main-article-box
+{
+    width: 404px;
+    margin-left: 29px;
+}
+.main-article-text
+{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+
+
+    color: #000000;
+}
+
+.main-article-link
+{
+    text-decoration: none;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    padding-left: 30px;
+    padding-top: 13px;
+    padding-right: 30px;
+    padding-bottom: 13px;
+
+
+    margin-right: 71px;
+
+    color: #FFFFFF;
+    background: #F78B3B;
+    border-radius: 60px;
+}
+
+.news-world-text
+{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.news-world-box{
+    display: flex;
+    align-content : center;
+    /* justify-content:space-evenly; */
+
+    margin-bottom: 100px;
+}
+
+.news-world-news{
+    margin-right: 10px;
+}
+.news-world-news-list-item
+{
+    background: #F6F6F6;
+    list-style: none;
+}
+
+.news-world-news-list-item{
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.news-world-news-list-itembox
+{
+    width: 797px;
+    display: flex;
+    align-items : center;
+    justify-content:space-between;
+
+    margin-left: 17px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.news-world-news-list-item-box-for-text-box
+{
+    width: 535px;
+}
+
+.news-world-news-list-item-box-for-text-theme-link
+{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.news-world-news-list-item-box-for-text-content
+{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4A4B4C;
+}
+
+.news-world-news-list-item-box-for-text-description
+{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5E5F61;
+}
+
+.news-world-news-box
+{
+    display: flex;
+    width: 796px;
+    background: #eaeaea;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-world-news-link
+{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;    
+    color: #000000;
+    text-decoration: none;
+
+    margin-left: 343px;
+    margin-top: 17px;
+    margin-right: 343px;
+    margin-bottom: 17px;
+}
+
+.news-world-the-main-thing-box
+{
+    border-radius: 15px;
+    background-color: #f6f6f6;
+}
+
+.news-world-the-main-thing-box-text
+{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    
+    padding-left: 17px;
+    padding-top: 20px;
+    padding-right: 280px;
+    padding-bottom: 25px;
+    
+    color: #000000; 
+}
+
+.news-world-the-main-thing-box-list{
+    margin-left: 17px;
+    /* margin-top: 25px; */
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+
+.news-world-the-main-thing-box-list-item
+{
+    list-style: none;
+    border-bottom: 1px solid #D2D2D2;
+    
+}
+
+.news-world-the-main-thing-box-list-item-box
+{
+    width: 356px;
+}
+.news-world-the-main-thing-box-list-item-theme-link
+{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;    
+}
+
+.news-world-the-main-thing-box-list-item-description
+{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #5E5F61;
+}
+
+.footer-mainbox
+{
+    background: #7297EF;
+
+    padding-left: 221px;
+    padding-right: 221px;
+}
+
+.footer-mainbox-box
+{
+    display: flex;
+    /* align-content : center; */
+    /* justify-content:space-evenly; */
+    border-bottom: 1px solid #cecece;;
+}
+
+.footer-mainbox-box-boxlogo{
+    margin-top: 40px;
+    margin-right: 168px;
+    margin-bottom: 71px;
+}
+
+.footer-mainbox-box-boxlogo-link-logo
+{
+    width: 264px;
+}
+
+.footer-mainbox-box-boxlogo-text
+{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+    /* margin-top: 15px; */
+}
+
+.footer-mainbox-box-infobox{
+    margin-top: 59px;
+    margin-bottom: 30px;
+}
+
+.footer-mainbox-box-infobox-list-item{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer-mainbox-box-infobox-list-item-link
+{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-lowerbox
+{
+    display: flex;
+    align-content : center;
+    justify-content:space-between;
+}
+
+.footer-mainbox-text
+{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.footer-mainbox-list
+{
+    display: flex;
+    align-content : center;
+    justify-content:space-evenly;
+
+    margin-top: 31px;
+    margin-bottom: 50px;
+}
+
+.footer-mainbox-lisе-item
+{
+    list-style: none;
+
+    margin-left: 25px;
+}
